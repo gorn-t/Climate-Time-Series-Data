@@ -36,7 +36,7 @@ Relateted libraries
 syntax
 
 admin <-read_sf("THA_TVSEP_revised.shp")                              # import shapefile (vector data)
-temperature<-brick("tmp.cru_ts4.05.2001.2010dat.nc", varname = "tmp") # create multi-layer raster object of time-series climate data in netCDF (.nc) format
+temperature<-brick("tmp.cru_ts4.05.2001.2010dat.nc", varname = "temp") # create multi-layer raster object of time-series climate data in netCDF (.nc) format
 ```
 
 ### Extract climate parameters (mean) into administrative lavel data
